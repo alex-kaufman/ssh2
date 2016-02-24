@@ -51,17 +51,18 @@ Connecting to webrtc-kurento ec2-XX-XX-XX-XX.us-west-2.compute.amazonaws.com
 
 ## Installation
 ```
-pip install ssh2
+pip install git+git://github.com/alex-kaufman/ssh2
 ```
 
 or
 
 without using Python package manager:
 ```
-git clone https://github.com/soheil/ssh2.git
+git clone https://github.com/alex-kaufman/ssh2.git
 cd ssh2
 ln -sf $(pwd)/ssh2 /usr/local/bin/
 ```
 
 ## Author
+Alex Kaufman
 Soheil Yasrebi, [@soheil](https://twitter.com/soheil)
